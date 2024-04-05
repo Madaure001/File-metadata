@@ -25,7 +25,7 @@ app.post('/api/fileanalyse', multer().single('upfile'), (req, res) => {
   //set response object size
   resObj['size'] = req.file.size;
 
-  res.json({resObj});
+  res.json(resObj);
 })
 
 

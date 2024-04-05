@@ -32,6 +32,19 @@ input {
   margin: 10px auto;
 }
 
+.view {
+  position:relative;
+  margin: auto;
+  margin-top: 40px;
+  border: 2px  solid  #67d4f0;
+  border-radius: 20px;
+  padding: 20px;
+  width: 60%;
+  min-width: 400px;
+  background-color: #E5E7EB;
+  color: #000;
+}
+
 input#button {
   width: 180px;
   height: 35px;
@@ -45,16 +58,4 @@ input#button {
 
 input#button:hover {
   background-color: #67d4f0;
-}
-
-.view {
-  position:relative;
-  margin: auto;
-  margin-top: 40px;
-  border: 2px  solid  #67d4f0;
-  border-radius: 20px;
-  padding: 20px;
-  width: 60%;
-  min-width: 400px;
-  background-color: #fff;
 }
